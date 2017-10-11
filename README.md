@@ -13,7 +13,7 @@ gif
 
 ## Sample 02: Python Desktop Application
 *Descriptoin:* This is
-![Alt Text](https://media.giphy.com/media/l378A1kQEbuqWIXS0/giphy.gif)
+![Alt Text](https://www.dropbox.com/s/688i5myjoew98r3/ENGG4810-DEMO.gif)
 
 
 
