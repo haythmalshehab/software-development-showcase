@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!--Author: Haythm Alshehab-->
+<!--Project Name: Skillit - Learn the skills to create websites-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Learn a skill">
+    <meta name="author" content="Haythm Alshehab">
+    <title>Learn HTML</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"
+          type="text/css">
+
+</head>
+
+
+<body>
+<!-- Navigation Bar-->
+<div class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <a class="navbar-brand" href="index.html">
+                    <!--<i class="fa fa-gg"></i>-->
+                    <img src="assets/img/greenleaf3.png"  width="149"
+                         height="48" alt="">
+                </a>
+            </div>
+            <div class="col-md-6">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="soon.html">LOGIN</a></li>
+                    <li><a href="soon.html">SIGNUP</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section id="learn_lesson_title">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-centered">
+                <h1>HTML</h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="learn_main">
+    <div class="container-fluid">
+        <div class="row">
+            <div class=" col-md-2 col-sm-2" id="sidebar_learn">
+                <ul class="nav">
+                    <li id="lesson_one" onclick="toggle_visibility(0)">
+                        <a href="#">
+                            Lesson1
+                        </a>
+                    </li>
+
+                    <li id="lesson_two" onclick="toggle_visibility(1)">
+                        <a href="#">
+                            Lesson 2
+                        </a>
+                    </li>
+
+                    <li id="lesson_three" onclick="toggle_visibility(2)">
+                        <a href="#">
+                            Lesson 3
+                        </a>
+                    </li>
+
+                    <li id="lesson_four" onclick="toggle_visibility(3)">
+                        <a href="#">
+                            Lesson 4
+                        </a>
+                    </li>
+
+                    <li id="lesson_five" onclick="toggle_visibility(4)">
+                        <a href="#">
+                            Lesson 5
+                        </a>
+                    </li>
+
+                    <li id="lesson_six" onclick="toggle_visibility(5)">
+                        <a href="#">
+                            Lesson 6
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="lesson_div col-md-8 col-md-offset-1"
+                 id="lesson_div_one">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                            src="//www.youtube.com/embed/9gTw2EDkaDQ">
+                    </iframe>
+                </div>
+                <h2 class="well">Lesson One Highlight</h2>
+                <p class="lesson_text well">This video describes HTML tags,
+                    elements, and attributes. The new HTML5 doctype declaration
+                    is shown as well as the method for specifying the character
+                    encoding for the document. The basic structure of an HTML
+                    document is also shown. This video introduces the html,
+                    head, meta, title, body, and p tags.</p>
+            </div>
+
+
+            <div class="lesson_div col-md-8 col-md-offset-1"
+                 id="lesson_div_two">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                            src="//www.youtube.com/embed/YcApt9RgiT0">
+                    </iframe>
+                </div>
+                <h2 class="well">Lesson Two Highlight</h2>
+                <p class="lesson_text well">This video describes how to use
+                    text. The p tag is demonstrated and the heading tags are
+                    introduced. The br tag is also shown. This video also
+                    touches on the importance of CSS. A quick demonstration of
+                    CSS is shown to center some text and to change its color. In
+                    older versions of HTML, text could be centered by using the
+                    align attribute. However, this attribute is deprecated and
+                    is not valid HTML5. While the align attribute may still work
+                    in your browser, it is not compliant with HTML5 standards.
+                    Therefore, learning CSS can be very beneficial when working
+                    with HTML5 code.</p>
+            </div>
+
+            <div class="lesson_div col-md-8 col-md-offset-1"
+                 id="lesson_div_three">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                            src="//www.youtube.com/embed/CGSdK7FI9MY">
+                    </iframe>
+                </div>
+                <h2 class="well">Lesson Three Highlight</h2>
+                <p class="lesson_text well">This video demonstrates how to use
+                    images and hyperlinks. The difference between relative and
+                    absolute addressing is covered. This video shows the height
+                    and width attributes used with the img tag. In older
+                    versions of HTML, the height and width attributes could be
+                    specified in pixels or as a percentage. However, it is not
+                    valid HTML5 to specify these values as a percentage. If a
+                    percentage value is desired then CSS can be used.</p>
+            </div>
+
+
+            <div class="lesson_div col-md-8 col-md-offset-1"
+                 id="lesson_div_four">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                            src="//www.youtube.com/embed/4I1WgJz_lmA">
+                    </iframe>
+                </div>
+                <h2 class="well">Lesson Four Highlight</h2>
+                <p class="lesson_text well">This video introduces 2 elements
+                    that are new to HTML5, the audio and video elements. While
+                    older browsers don't support these new elements, the popular
+                    newer browsers do.</p>
+            </div>
+
+
+            <div class="lesson_div col-md-8 col-md-offset-1"
+                 id="lesson_div_five">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                            src="//www.youtube.com/embed/dDn9uw7N9Xg">
+                    </iframe>
+                </div>
+                <h2 class="well">Lesson Five Highlight</h2>
+                <p class="lesson_text well">This video demonstrates how to use
+                    images and hyperlinks. The difference between relative and
+                    absolute addressing is covered. This video shows the height
+                    and width attributes used with the img tag. In older
+                    versions of HTML, the height and width attributes could be
+                    specified in pixels or as a percentage. However, it is not
+                    valid HTML5 to specify these values as a percentage. If a
+                    percentage value is desired then CSS can be used.</p>
+            </div>
+
+
+            <div class="lesson_div col-md-8 col-md-offset-1"
+                 id="lesson_div_six">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                            src="//www.youtube.com/embed/CPcS4HtrUEU">
+                    </iframe>
+                </div>
+
+                <h2 class="well">Lesson Six Highlight</h2>
+                <p class="lesson_text well">This video describes how to use
+                    text. The p tag is demonstrated and the heading tags are
+                    introduced. The br tag is also shown. This video also
+                    touches on the importance of CSS. A quick demonstration of
+                    CSS is shown to center some text and to change its color. In
+                    older versions of HTML, text could be centered by using the
+                    align attribute. However, this attribute is deprecated and
+                    is not valid HTML5. While the align attribute may still work
+                    in your browser, it is not compliant with HTML5 standards.
+                    Therefore, learning CSS can be very beneficial when working
+                    with HTML5 code.</p>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+
+<!--Footer Section-->
+<div id="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <p>Copyrights © 2016 All Rights Reserved by Skillit</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Footer Section-->
+
+<script src="assets/js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+
+</html>
