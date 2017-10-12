@@ -25,8 +25,8 @@ https://is.gd/b7ml67
 ## Sample 02: Web Development
 ### __Description__
 
-This was my my Assignment One for Web Information Systems (INFS3202).
-It was a rather small assignment meant to be a destination to gain knowledge
+This was my Assignment One for Web Information Systems (INFS3202).
+It was a rather small assignment meant to be an introduction to gain knowledge
 in web evelopment but I have decided to include it here
 since it is relevant to the position I am applying for. In the second
 assignment. we implemented much more complex web application but it was
