@@ -26,7 +26,7 @@ This was my project for Introduction to Web Design (DECO1400).
 It was focused more on the fundamentals of web design rather than web development.
 
 ### __Screenshot__
-<img src="/Introduction to Web Design - DECO1400/assets/img/deco1400.gif?raw=true" width="900px">;
+<img src="/Introduction to Web Design - DECO1400/assets/img/deco1400.gif?raw=true" width="900px">
 
 <!--------------------------------------------------------------------->
 ## Sample 03: Matlab Machine Learning
