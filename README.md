@@ -28,6 +28,7 @@ It was focused more on the fundamentals of web design rather than web developmen
 ### __Screenshot__
 
 ![Alt Text](https://pli.io/VY8Ya.gif)
++<img src="/Introduction to Web Design - DECO1400/assets/img/deco1400.gif?raw=true" width="600px">
 
 <!--------------------------------------------------------------------->
 ## Sample 03: Matlab Machine Learning
