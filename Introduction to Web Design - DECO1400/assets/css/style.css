@@ -1,0 +1,432 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Skranji|Titan+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,100,900');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Kavivanar|Modern+Antiqua|Yatra+One');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+* {
+    box-sizing: border-box;
+}
+
+/* Home Navigation Bar  ----------------------------------------------------- */
+.home_nav_container {
+    /* flex-direction: row; */
+    align-items: center;
+    align-content: center;
+    height: 145px;
+    padding: 20px 20px 20px 20px;
+    background: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display:flex;
+}
+
+.home_left_nav {
+    flex-grow: 1;
+}
+
+.home_logo {
+    height: 128px;
+    /* width: auto; */
+}
+
+.home_logo:hover {
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+}
+
+.home_right_nav {
+    color: white;
+    /* padding: auto; */
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-shadow: 2px 2px 1px black;
+}
+
+.home_right_nav a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+.home_right_nav a:hover {
+    font-weight: 400;
+    border-top: solid 2px rgb(223, 207, 173);
+    border-bottom: solid 2px rgb(223, 207, 173);
+    color: rgb(223, 207, 173);
+    text-shadow: 2px 2px 4px black;
+}
+
+.home_right_nav a.active {
+    color: rgb(223, 207, 173);;
+}
+
+/* /Home Navigation Bar  ---------------------------------------------------- */
+
+/* Story Navigation Bar  ---------------------------------------------------- */
+.story_nav_container {
+    align-content: center;
+    height: 60px;
+    padding: 20px 40px 40px 40px;
+    position: fixed;
+    box-sizing: border-box;
+    top: 50px;
+    margin-left: 20px;
+}
+
+.story_home_logo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 65px;
+    height: 65px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.story_home_logo:hover {
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+
+#story_logo_container {
+    height: 500px;
+    margin-top: 300px;
+    margin-bottom: 500px;
+}
+
+#story_logo {
+    height: 500px;
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+}
+
+.story_left_nav:hover {
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+}
+
+/* /Story Navigation Bar  --------------------------------------------------- */
+
+/*body {*/
+/*margin: 0;*/
+/*}*/
+
+/* Home Body --------------------------------------------------------------- */
+.home_body {
+    margin: 0;
+    background: url('../img/story_background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100vh;
+}
+
+#home_background_video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.home_content {
+    position: fixed;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    flex: 1 0 auto;
+}
+
+#home_para_container {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    height: 600px;
+    align-items: center;
+    align-content: space-between;
+}
+
+#home_para_container p {
+    order: 1;
+    font-weight: 100;
+    background-color: transparent;
+    color: white;
+    font-size: 64px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Roboto Slab', serif;
+}
+
+.home_start_button {
+    order: 2;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    font-size: 128px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    margin: auto;
+    width: 512px;
+    color: white;
+    font-family: 'Bowlby One SC', cursive;
+    text-shadow: 2px 2px 4px black;
+}
+
+.home_start_button:hover {
+    color: rgb(223, 207, 173);
+    border: solid 5px rgb(223, 207, 173);
+}
+
+/* /Home Body -------------------------------------------------------------- */
+
+/* Home Footer ----------------------------------------------------------- */
+#home_footer_container {
+    display: flex;
+    margin-top: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    justify-content: center;
+    overflow-y: auto;
+    /* This to fix the issue where the footer was hidden behind the background video*/
+    z-index: 1;
+}
+
+#home_footer_copyright {
+    order: 2;
+    flex-grow: 2;
+    align-self: flex-end;
+}
+
+#volume_toggle_container {
+    position: fixed;
+    left: 0;
+    height: 50px;
+    font-size: 3em;
+    margin-left: 20px;
+    margin-right: 20px;
+    right: 10px;
+    bottom: 40px;
+    display: block;
+    color: #fff;
+}
+
+#soundtrack_toggle_button {
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.fa:hover {
+    color: rgb(223, 207, 173);
+}
+
+/* /Home Footer ---------------------------------------------------------- */
+
+/* Story Body ----------------------------------------------------------- */
+.story_body, .story_html {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    background: url(../img/story_background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    left: 0;
+    right: 0;
+}
+
+.story_section {
+    text-align: center;
+    padding: 80px 80px 80px 80px;
+    /* display: flex; */
+    align-items: center;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display:flex;
+    justify-content: center; 
+    /* max-width: auto; */
+}
+
+.story_section img {
+    border: 5px solid #ddd;
+    border-radius: 20px;
+    max-width: 600px;
+}
+
+.story_section video {
+    border: 5px solid #ddd;
+    border-radius: 20px;
+    max-width: 600px;
+}
+
+.story_section p {
+    font-size: 25px;
+    line-height: 1.6;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    width: 100%;
+}
+
+.story_section:nth-child(odd) img {
+    order: 1;
+}
+
+.story_section:nth-child(odd) video {
+    order: 1;
+}
+
+.story_section:nth-child(odd) p {
+    order: 2;
+}
+
+.story_section:nth-child(even) img {
+    order: 2;
+}
+
+.story_section:nth-child(even) video {
+    order: 2;
+}
+
+.story_section:nth-child(even) p {
+    order: 1;
+}
+
+.story_heading {
+    text-align: center;
+    font-size: 48px;
+    border-top: solid 5px white;
+    border-bottom: solid 5px white;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.6;
+    text-shadow: 2px 2px 1px black;
+}
+
+.quidditch_game_container {
+    height: 800px;
+    position: relative;
+}
+
+.quidditch {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+#font_size_picker_container {
+    right: 10px;
+    bottom: 20px;
+    position: fixed;
+    display: block;
+    color: #fff;
+}
+
+#increase_font_size_button {
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+#decrease_font_size_button {
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+#decrease_font_size_button:hover {
+    color: rgb(223, 207, 173);;
+}
+
+#increase_font_size_button:hover {
+    color: rgb(223, 207, 173);;
+}
+
+/* /Story Body ---------------------------------------------------------- */
+
+/* Contact Us Form ----------------------------------------------- */
+
+/* Start of Contact Us page style */
+/* Style inputs */
+
+.contact_body {
+    margin: 0;
+    background: url('../img/story_background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    min-height: 100vh;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    width: 100%;
+    padding: 20px;
+}
+
+#contact_heading {
+    text-align: center;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Roboto Slab', serif;
+}
+
+input[type=submit] {
+    background-color: rgb(223, 207, 173);
+    color: white;
+    padding: 12px 20px;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 2px 1px black;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+#contact_footer {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+/* /Contact Us Form ---------------------------------------------- */

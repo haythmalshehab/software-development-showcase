@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Haythm Alshehab">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+          crossorigin="anonymous">
+    <title>Harry Potter | Story Page</title>
+</head>
+
+
+
+
+
+<body class="home_body">
+        <video autoplay loop id="home_background_video">
+                <source src="assets/videos/home_background_video.mp4"
+                        type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+<div class="home_content">
+    <header class="home_nav_container">
+        <nav class="home_left_nav">
+            <a href="index.html">
+                <img class="home_logo" src="assets/img/story_title.svg" alt="">
+            </a>
+        </nav>
+        <nav class="home_right_nav">
+            <a href="contact.html" class="home_right_nav">Contact Us</a>
+            <a href="about.html" class="home_right_nav">About Us</a>
+        </nav>
+    </header>
+
+    <section id="home_para_container">
+        <p>Let's start our journey in the land of witchcraft and wizardry. Click Start to begin...</p>
+        <button class="home_start_button" onclick="location.href='story.html';">
+            Start
+        </button>
+    </section>
+
+</div>
+
+<footer>
+    <div id="volume_toggle_container">
+    <span><i id="soundtrack_toggle_button" class="fa" onclick="toggle_background_video_sound()">
+    </i>
+    </span>
+    </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+</body>
+
+</html>

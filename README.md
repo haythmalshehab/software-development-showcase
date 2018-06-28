@@ -18,27 +18,16 @@ mask testing on the plot.
 
 ![Alt Text](http://i.cubeupload.com/d13955.gif)
 
-### __Link to exe file__
-
-https://is.gd/b7ml67
 <!--------------------------------------------------------------------->
-## Sample 02: Web Development
+## Sample 02: Web Deisng
 ### __Description__
 
-This was my Assignment One for Web Information Systems (INFS3202).
-It was a rather small assignment meant to be an introduction to gain knowledge
-in web evelopment but I have decided to include it here
-since it is relevant to the position I am applying for. In the second
-assignment. we implemented much more complex web application but it was
- a group assignment.
+This was my project for Introduction to Web Design (DECO1400).
+It was focused more on the fundamentals of web design rather than web development.
 
 ### __Screenshot__
 
-![Alt Text](http://i.cubeupload.com/wgDrVE.png)
-
-
-![Alt Text](http://i.cubeupload.com/8VFMye.png)
-
+![Alt Text](http://s1.webmshare.com/ONnBY.webm)
 <!--------------------------------------------------------------------->
 ## Sample 03: Matlab Machine Learning
 ### __Description__
@@ -49,3 +38,8 @@ decided to include it because it shows my ability to write technical reports exp
 ### __Screenshot__
 
 *Refer to Matlab Machine Learning - COMP4702/ALSHEHAB, Haythm-43442504-COMP4702A2.pdf for more details*
+
+
+
+
+

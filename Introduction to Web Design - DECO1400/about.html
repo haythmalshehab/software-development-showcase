@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Haythm Alshehab">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+          crossorigin="anonymous">
+    <title>Harry Potter | About Us</title>
+</head>
+
+<body class="contact_body">
+<header class="home_nav_container">
+    <nav class="home_left_nav">
+        <a href="index.html">
+            <img class="home_logo" src="assets/img/home_icon.svg" alt="">
+        </a>
+    </nav>
+    <nav class="home_right_nav">
+        <a href="contact.html" class="home_right_nav">Contact Us</a>
+        <a href="about.html" class="home_right_nav">About Us</a>
+    </nav>
+</header>
+
+<section class="story_section">
+    <p>
+        This website was developed for the DECO1400 course in Semester 1, 2018. This website attempts to create an
+        interactive children's book. The story was chosen to be Harry Potter and the developer can be contacted at
+        haythm@alshehab.org
+    </p>
+    <img src="assets/img/google_map_placeholder.gif" width="900px" alt="Our Location">
+</section>
+
+<footer id="contact_footer">
+    &#169; 2019 by Haythm Alshehab.
+</footer>
+
+<script>
+    function myMap() {
+        var mapCanvas = document.getElementById("map");
+        var mapOptions = {
+            center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+        };
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+    }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
