@@ -10,7 +10,7 @@ Thank you.
 ## Sample 01: Machine Learning Thesis
 ### __Description__
 
-I have created a separate repository for my Bachelor's thesis in Machine Learning [here.](https://github.com/HaythmA/AHRCR)
+I have created a separate repository for my Bachelor's thesis in Machine Learning [here.](https://github.com/haythmalshehab/AHRCR)
 
 
 ## Sample 02: Python Desktop Application
