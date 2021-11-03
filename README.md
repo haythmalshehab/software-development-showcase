@@ -27,4 +27,4 @@ mask testing on the plot.
 
 ### __Screenshot__
 
-![Alt Text](http://i.cubeupload.com/d13955.gif)
+<img src="/Python Desktop Application - ENGG4810/sc.png?raw=true" width="900px">
